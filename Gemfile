@@ -12,9 +12,15 @@ gem 'sprockets', '2.11.0'
 
 gem 'devise', '>= 3.2.4'
 
+# Use geocoder for Google Maps integration
 gem 'geocoder'
 
+gem 'fog', '~> 1.3.1'
+
+# Use figaro to help keep keys private
 gem "figaro", ">= 1.0.0"
+
+gem 'carrierwave'
 
 # Use SCSS for stylesheets
 gem 'sass-rails'
@@ -33,6 +39,7 @@ gem 'jquery-rails'
 
 gem 'will_paginate', '~> 3.0.4'
 
+# Simpleform gem
 gem 'simple_form'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
